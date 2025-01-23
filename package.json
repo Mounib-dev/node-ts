@@ -1,0 +1,20 @@
+{
+  "name": "node-express-rest-api-ts",
+  "version": "1.0.0",
+  "description": "Integrating TypeScript in Node.js Express.js REST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/app.js"
+  },
+  "author": "Mounib OUROUA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
